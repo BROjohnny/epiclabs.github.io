@@ -477,12 +477,17 @@ h6 {
 }
 .mouse
 {
-height: 42px;
-width: 24px;
+  height: 42px;
+  width: 24px;
   border-radius: 14px;
   transform: none;
   border: 2px solid #1cd3dd;
   top: 170px;
+}
+@media(max-width:768px){
+  .mouse{
+    top: 100px;
+  }
 }
 .wheel
 {
