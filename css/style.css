@@ -423,7 +423,12 @@ h6 {
   width: 24px;
   height: 100px;
   //background: blue;
-  margin-top: 20px;
+  margin-top: 70px;
+}
+@media(max-width:768px){
+  .mouse_scroll {
+    margin-top: 30px;
+  }
 }
 .m_scroll_arrows
 {
@@ -477,7 +482,7 @@ width: 24px;
   border-radius: 14px;
   transform: none;
   border: 2px solid #1cd3dd;
-  top: 100px;
+  top: 170px;
 }
 .wheel
 {
