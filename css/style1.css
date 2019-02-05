@@ -68,11 +68,11 @@ a {
   /*margin: 4em auto;*/
   margin: 0em;
 }
-@media only screen and (max-width: 768px) {
-  .cd-intro {
-    padding: 7em 1em 2.5em 1em;
+@media(max-width: 768px){
+  .cd-intro{
+    padding: 10em 1em 2.5em 1em;
   }
-  .cd-intro p{
+  .cd-intro p {
     text-align: center;
     font-size: 18px;
   }
