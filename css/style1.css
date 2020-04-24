@@ -59,14 +59,13 @@ a {
 
 .cd-intro {
   width: 100%;
-  max-width: 850px;
-  /*text-align: center;*/
   text-align: left;
-}
-
-.cd-intro {
-  /*margin: 4em auto;*/
+  transform: translate(0%, 55%);
   margin: 0em;
+}
+.cd-intro-content{
+  width: 85%;
+  margin: 0 auto;
 }
 @media(max-width: 768px){
   .cd-intro{
@@ -84,9 +83,8 @@ a {
 }
 @media only screen and (min-width: 1170px) {
   .cd-intro {
-    /*margin: 6em auto;*/
     margin: 0;
-    padding: 240px 0 0 100px;
+    /*padding: 240px 0 0 100px;*/
   }
 }
 
