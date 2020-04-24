@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------
+# Responsive Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+  .team-profiles{
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+  }
+  #last-team-profile{
+    margin-bottom: 0;
+  }
+  .profiles{
+    width: 80%;
+    margin: 0 auto;
+  }
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
+    padding: 20px 0;
+  }
+
+  #contact .contact-email {
+    border-left: 1px solid #ddd;
+  }
+}
+
+@media (min-width: 992px) {
+  #testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+@media (min-width: 1024px) {
+  #header #logo {
+    width: 20%;
+    padding-left: 60px;
+  }
+  #header-scar #logo-scar {
+    padding-left: 60px;
+  }
+  #intro p {
+    width: 100%;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Open Sans;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    margin-top: 40px;
+  }
+  #intro p b{
+    color: #1cd3dd;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 26px;
+  }
+
+  #intro .carousel-control-prev,
+  #intro .carousel-control-next {
+    width: 5%;
+  }
+
+  #nav-menu-container {
+    padding-right: 60px;
+  }
+}
+@media (min-width: 1920px) {
+  #header #logo {
+    width: 15%;
+    padding-left: 60px;
+    margin-top: 0;
+  }
+  #header-scar #logo-scar {
+    padding-left: 60px;
+  }
+  .cd-intro {
+    margin: 0;
+    width: 100%;
+    text-align: left;
+    transform: translate(0%, 85%);
+  }
+  .cd-intro-content{
+    width: 90%;
+    margin: 0 auto;
+  }
+  #intro p {
+    width: 100%;
+    color: #ccc;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Open Sans;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    margin-top: 40px;
+  }
+  #intro p b{
+    color: #1cd3dd;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .mouse_scroll {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+
+  #header #logo h1 {
+    font-size: 28px;
+  }
+  #header-scar #logo-scar h1 {
+    font-size: 28px;
+  }
+
+  #header #logo{
+    margin-top: 5px;
+    width: 70%;
+  }
+  #header #logo img {
+    max-height: 100px;
+  }
+  #header-scar #logo-scar{
+    margin-top: 5px;
+    width: 70%;
+  }
+  #header-scar #logo-scar img {
+    max-height: 100px;
+  }
+  #header.header-scrolled #logo img{
+    width: 45%;
+  }
+  #intro h2 {
+    font-size: 28px;
+  }
+
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
