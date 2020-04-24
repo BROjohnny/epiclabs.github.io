@@ -1222,12 +1222,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   text-transform: uppercase;
 }
+
 /* Team Section
 --------------------------------*/
-.custom_container{
-  width: 90%;
-  margin: 0 auto;
-}
+
 #team {
   background: url(../img/call-to-action-bg.jpg) right bottom no-repeat fixed;
   background-size: cover;
