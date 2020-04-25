@@ -145,7 +145,6 @@
     display: inline;
   }
   #header.header-scrolled #logo img{
-    margin-top: 5px;
     width: 60%;
   }
   #intro p {
