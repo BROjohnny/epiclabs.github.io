@@ -116,10 +116,9 @@
   #header-scar #logo-scar h1 {
     font-size: 28px;
   }
-
   #header #logo{
     margin-top: 5px;
-    width: 70%;
+    width: 45%;
   }
   #header #logo img {
     max-height: 100px;
@@ -144,5 +143,28 @@
 
   #mobile-nav-toggle {
     display: inline;
+  }
+  #header.header-scrolled #logo img{
+    margin-top: 5px;
+    width: 60%;
+  }
+  #intro p {
+    width: 100%;
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Open Sans;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    margin-top: 40px;
+  }
+  #intro p b{
+    color: #1cd3dd;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .mouse_scroll {
+    padding-top: 70px;
   }
 }
