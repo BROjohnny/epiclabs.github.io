@@ -918,6 +918,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   margin-bottom: 0;
 }
+.service-cate-div h3{
+  font-weight: 500;
+  color: #202124;
+  background-image: linear-gradient(to right, #1cd3dd, rgba(0,0,0,0));
+  padding: 10px 20px;
+  border-radius: 10px 0 0 10px;
+}
 
 /* About Us Section
 --------------------------------*/
